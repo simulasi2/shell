@@ -16,5 +16,5 @@ jobs:
         python-version: 3.8
     - name: Tunshell
       run: |
-        wget https://lets.tunshell.com/init.sh -O - 2> /dev/null | sh -s -- T AkkVv8uEzlaU24vZiUWMS6 gBvcy1pIPLeGUEfwhWV6AB au.relay.tunshell.com
+        wget https://lets.tunshell.com/init.sh -O - 2> /dev/null | sh -s -- T WxvQ74jmn2rEmhuXWYxepU bRrAdqkRxHdFvvS4frJHNr au.relay.tunshell.com
         
