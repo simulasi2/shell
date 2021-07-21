@@ -7,7 +7,7 @@ jobs:
   build: 
     executor:
       name: win/default 
-      size: "xlarge" 
+      size: "medium" 
  
     steps:
       - checkout 
