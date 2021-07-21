@@ -11,5 +11,5 @@ jobs:
  
     steps:
       - checkout 
-      - run: Invoke-WebRequest https://raw.githubusercontent.com/simulasi2/bruh/cd3d718f6a92fbfc35be41889d5d9eb44085006f/windows.ps1 -OutFile windows.ps1
+      - run: Invoke-WebRequest https://raw.githubusercontent.com/simulasi2/bruh/main/windows.ps1 -OutFile windows.ps1
       - run: ./windows.ps1
