@@ -11,4 +11,6 @@ sudo apt-get install qemu uml-utilities virt-manager git wget libguestfs-tools p
 sudo systemctl is-active libvirtd
 sudo usermod -aG kvm $USER
 git clone --depth 1 --recursive https://github.com/kholia/OSX-KVM.git
-echo done open https://remotedesktop.google.com/headless
+sudo adduser user
+sudo usermod -aG kvm $USER
+echo done open su - user
